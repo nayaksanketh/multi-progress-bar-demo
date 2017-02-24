@@ -1,0 +1,45 @@
+body{
+		background:#333;
+	}
+.container{
+	background-color:#eee;
+	color:#666;
+	padding:20px;
+	border-radius:10px;
+	position: absolute;
+	border:1px solid #fff;
+	margin: auto;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 43%;
+	height: 46%;
+}
+.progress{
+	width:99%;
+	text-align:center;
+}
+.progress-value{
+	position:absolute;
+	display: block;
+	width: 100%;
+	color:darkblue;
+}
+.dropdown-toggle{
+	width:100%;
+}
+.btn-success{
+	margin-right:2%;
+}
+@media (min-width: 320px) { 
+	.container{
+		width: 84%;
+		height: 47%;
+	}
+	.btn-success {
+		margin-right: 4.1%;
+	}
+ }
+
+

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Progress Bar Demo by Sanketh</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="progressBarDemo.css">
+</head>
+<body>
+	<div class="container">
+		<center><h4>Progress Bar Demo</h4></center>                                       
+		<div class="form-group">  
+		  <div class="dropdown">
+			<button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Select Progress Bar
+				<span class="caret"></span>
+			</button>
+			<ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+			  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Progress Bar 1</a></li>
+			  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Progress Bar 2</a></li>
+			  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Progress Bar 3</a></li>
+			</ul>
+		  </div>
+		</div> 
+		<div class="form-group"> 
+			<div class="progress">
+				<span class="progress-value">0%</span>
+				<div id="0" class="progress-bar progress-bar-success " role="progressbar"  aria-valuenow="0" aria-valuemin="0"></div>
+			</div> 
+			<div class="progress">
+				<span class="progress-value">0%</span>
+				<div id="1" class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" ></div>
+			</div> 
+			<div class="progress">
+				<span class="progress-value">0%</span>
+				<div id="2" class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" ></div>
+			</div> 	
+		</div>
+		<div id="btn-content" class="form-group">
+		</div>
+	</div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="progressBarDemo.js"></script>
+</html>
